@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* loginPage */
+.loginPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.loginBtn {
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #fff;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 20px;
+  color: #837c7c;
+  cursor: pointer;
+}
+
+/* navbar */
+.navbarComp {
+  background-color: #cedeed;
+}
+
+/* searchBarComp */
+.searchBarComp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.searchBarComp p {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.searchBarComp .mainDiv {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 45rem;
+  padding: 0.6rem 2rem;
+  border-radius: 2rem;
+  background-color: #f2f2f2;
+  transform: translateY(1.4rem);
+}
+
+.searchBarComp input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-weight: 500;
+}
+
+#latest {
+  margin-top: 2rem;
+}
+
+/* swiper*/
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  border-radius: 8px;
+  width: 640px;
+  height: 450px;
+}
+
+/* overlay */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 5rem;
+  bottom: 0;
+  width: 80%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  border-radius: 7px;
+  z-index: 1;
+  display: flex;
+  text-align: start;
+}
+
+/* politics */
+/* #politics {
+} */
+
+/* newscard */
+.newscard {
+  width: 15rem;
+  height: 20rem;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.newscard:hover {
+  transform: translateY(-10px) scale(1.1);
+}
+
+.newscard img {
+  border-radius: 8px;
+}
+
+.newscard h6 {
+  margin: 0.5rem 1rem;
+}
+
+.newscard a {
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.newscard a:hover {
+  text-decoration: underline;
+}
+
+/* environmentAndWildlife */
+#environmentAndWildlife {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* sports */
+/* #sports{
+  border: 1px solid #000;
+} */
+
+#heritageAndArchitecture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* footer */
+.footer {
+  background: #00294f;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer .footerLogoLink {
+  color: #fff;
+  font-size: x-large;
+}
+
+.footer .footerLink {
+  color: #fff;
+  font-size: 0.96rem;
+}
+
