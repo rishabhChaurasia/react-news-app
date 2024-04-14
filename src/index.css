@@ -7,28 +7,6 @@
   font-family: "Open Sans", sans-serif;
 }
 
-/* loginPage */
-.loginPage {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
-.loginBtn {
-  border: none;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  background-color: #fff;
-  padding: 10px 20px;
-  font-size: 0.9rem;
-  font-weight: 500;
-  border-radius: 20px;
-  color: #837c7c;
-  cursor: pointer;
-}
-
 /* navbar */
 .navbarComp {
   background-color: #cedeed;
@@ -178,4 +156,3 @@
   color: #fff;
   font-size: 0.96rem;
 }
-
