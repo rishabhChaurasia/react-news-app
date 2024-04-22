@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 import OverlayImgCard from "./OverlayImgCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
-import { faker } from "@faker-js/faker";
 import { useDispatch, useSelector } from "react-redux";
 import toast from "react-hot-toast";
 import axios from "axios";
